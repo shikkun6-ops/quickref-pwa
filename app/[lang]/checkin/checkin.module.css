@@ -1,0 +1,249 @@
+.container {
+  padding: 24px 16px 40px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.pageHeader { 
+  margin-bottom: 28px; } 
+  
+.pageTitle { 
+  margin: 0 0 8px; 
+  font-size: 1.8rem; 
+  font-weight: 700; 
+  line-height: 1.4; } 
+  
+.pageLead { 
+  margin: 0; color: #868686; 
+  line-height: 1.7; }
+
+.infoSection { 
+  display: grid; 
+  grid-template-columns: 300px minmax(0, 1fr); 
+  gap: 24px; 
+  align-items: start; 
+  background: #1b1629; 
+  border-radius: 16px; 
+  padding: 24px; 
+  margin-bottom: 24px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06); } 
+   
+.chartCol { 
+  width: 300px; }  
+
+.textCol { min-width: 0; } 
+.chartWrap{ 
+  width: 100%; 
+  overflow-x: auto; }
+.chartCard { 
+  width:100%;
+  max-width:300px;
+  background: #29144f; 
+  border: 1px solid #e3e3e3; 
+  border-radius: 14px; 
+  padding: 16px; } 
+
+.chartTitle { 
+  margin: 0 0 12px; 
+  font-size: 1rem; 
+  font-weight: 700; } 
+
+.sectionTitle { 
+  margin: 0 0 12px; 
+  font-size: 1.35rem; 
+  font-weight: 700; 
+  line-height: 1.4; } 
+  
+.bodyBlock { 
+  display: grid; 
+  gap: 10px; } 
+  
+.bodyText { 
+  margin: 0; 
+  line-height: 1.8; 
+  color: #f4f2f2; } 
+  
+.checkinChart { 
+  width: 260px; 
+  border-collapse: collapse; 
+  background: #fff; 
+  border: 1px solid #d9d9d9; 
+  border-radius: 12px; 
+  overflow: hidden; } 
+  
+.checkinChart th, 
+.checkinChart td { 
+  border-bottom: 1px solid #e8e8e8; 
+  padding: 14px 16px; 
+  text-align: left; 
+  vertical-align: middle; 
+  font-size: 1rem; 
+  line-height: 1.5; }
+
+.checkinChart th { 
+  border-right:2px solid #d9d9d9;}
+  
+.checkinChart tr:last-child th,
+
+.checkinChart tr:last-child td { 
+  border-bottom: none; } 
+  
+.kindCell { 
+  width: 72px; 
+  text-align: center; 
+  font-weight: 700; 
+  font-size: 1.05rem; 
+  color: #fff; } 
+  
+.kindP {background: #163471; } 
+.kindS { background: #511f1d; }
+.itemCell { background: #55138e; color: #f7f4f4; }
+
+.jumpSection { margin-top: 8px; } 
+.jumpTile {
+  display: block;
+  overflow: hidden;
+  background: #5a1291;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.jumpImage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.jumpBody {
+  padding: 14px;
+}
+
+.jumpCardTitle {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.jumpText {
+  margin: 0;
+  color: #d8d3de;
+  line-height: 1.6;
+}
+
+.backSection {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.chartWrap {
+  margin-top: 20px;
+}
+
+.chartBox {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.infoTable {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.infoTable thead th {
+  background: #f5f7fa;
+  color: #222;
+  font-weight: 700;
+  text-align: center;
+  padding: 14px 12px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.infoTable tbody td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: middle;
+}
+
+.infoTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.infoTable tbody td:nth-child(1) {
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.infoTable tbody td:nth-child(2) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.infoTable tbody td:nth-child(3) {
+  color: #555;
+}
+
+@media (max-width: 760px) { 
+.infoSection { 
+  grid-template-columns: 1fr; }  
+
+.chartCol {
+    width: 100%;
+    display:flex;
+    justify-content: left;
+  }
+.chartCard {
+    width: min(300px, 100%);
+  }
+.textCol {
+    width: 100%;
+  }
+.infoTable {
+    min-width: 420px;
+    font-size: 0.9rem;
+  }
+
+.infoTable thead th,
+.infoTable tbody td {
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+.container { padding: 16px 12px 32px; }
+.pageTitle { font-size: 1.45rem; } 
+.sectionTitle { font-size: 1.2rem; } 
+.checkinChart th, 
+.checkinChart td {
+   padding: 10px 12px; 
+   font-size: 0.92rem; } 
+.kindCell { width: 56px; font-size: 0.95rem; } 
+.checkinChart { width: 100%; } 
+}
+
+@media (max-width: 360px) {
+  .sectionTitle {
+    font-size: 1.2rem;
+  }
+
+  .checkinChart {
+    max-width: 100%;
+  }
+
+  .checkinChart th,
+  .checkinChart td {
+    padding: 10px 10px;
+    font-size: 0.9rem;
+  }
+}
