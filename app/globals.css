@@ -724,7 +724,7 @@ imageWrap img {
 
 /* 3rd column = note / description */
 .infoTable tbody td:nth-child(3) {
-  text-align: left;
+  text-align: center;
   color: #c7ccd1;
 }
 
