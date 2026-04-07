@@ -16,9 +16,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pachinko & Pachislot Quick Guide",
   description: "Multilingual beginner guide for pachinko and pachislot in Japan. Learn how to play, the rules, prizes, and common trouble tips.",
-  icons: {
-    icon: "/favicon.png",
-  },
   openGraph: {
     title: "Pachinko & Pachislot Quick Guide",
     description:
