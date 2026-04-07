@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quick Reference PWA",
-  description: "Multilingual quick reference guide for first-time pachinko and pachislot players.",
+  title: "Pachinko & Pachislot Quick Guide",
+  description: "Multilingual beginner guide for pachinko and pachislot in Japan. Learn how to play, the rules, prizes, and common trouble tips.",
 };
 
 export default function RootLayout({
