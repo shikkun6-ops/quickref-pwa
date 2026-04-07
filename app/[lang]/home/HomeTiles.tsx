@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import type {AppLang } from "@/lib/analytics";
 import { trackMenuItemClicked } from "@/lib/analytics";
 
 type MenuItem =
@@ -33,7 +34,7 @@ export function HomeTiles({
             href={tile.href}
             className="homeTile"
             onClick={() =>
-              trackMenuItemClicked(lang as any , menuItem, tile.href)
+              trackMenuItemClicked(lang as AppLang , menuItem, tile.href,"home")
             }
           >
             <div className="homeTileImageWrap">

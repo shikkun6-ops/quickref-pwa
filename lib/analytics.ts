@@ -38,12 +38,14 @@ export function trackLanguageSelected(language: AppLang) {
 export function trackMenuItemClicked(
   language: AppLang,
   menuItem: MenuItem,
-  targetPath: string
+  targetPath: string,
+  fromPage?: string
 ) {
   trackEvent("menu_item_clicked", {
     language,
     menu_item: menuItem,
     target_path: targetPath,
+    from_page: fromPage,
   });
 }
 
