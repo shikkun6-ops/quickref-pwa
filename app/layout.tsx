@@ -16,6 +16,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pachinko & Pachislot Quick Guide",
   description: "Multilingual beginner guide for pachinko and pachislot in Japan. Learn how to play, the rules, prizes, and common trouble tips.",
+  icons: {
+    icon: "./favicon.png",
+  },
+  openGraph: {
+    title: "Pachinko & Pachislot Quick Guide",
+    description:
+      "Multilingual beginner guide for first-time players in Japan.",
+    url: "https://quickref-pwa.vercel.app",
+    siteName: "Pachinko & Pachislot Quick Guide",
+    images: [
+      {
+        url: "/ogp.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
