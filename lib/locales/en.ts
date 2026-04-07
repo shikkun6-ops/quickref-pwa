@@ -261,7 +261,7 @@ quitIntroBody: [
 ],
 
 quitPachinko: {
-  title: "How to Quit Pachinko",
+  title: "Pachinko",
   lead: "Depends on the system type",
   steps: [
     {
@@ -320,7 +320,7 @@ quitPachinko: {
  },
 
 quitPachislot: {
-  title: "How to Quit Pachislot",
+  title: "Pachislot",
   lead: "Depends on the system type",
   steps: [
     {
@@ -365,7 +365,7 @@ quitPachislot: {
 },
 
 quitRefund: {
-  title: "Cash Refund",
+  title: "Refund",
   lead: "You need an IC card with your balance.",
   steps: [
     {

@@ -251,7 +251,7 @@ export const ja: Dict = {
 ],
 
 quitPachinko: {
-    title: "Pachinkoのやめ方",
+    title: "Pachinko",
     lead: "設備タイプによって違う",
     steps: [
      {
@@ -304,7 +304,7 @@ quitPachinko: {
  },
 
   quitPachislot: {
-    title: "Pachislotのやめ方",
+    title: "Pachislot",
     lead: "設備タイプによって違う",
     steps: [
        {
@@ -343,7 +343,7 @@ quitPachinko: {
   },
   
   quitRefund: {
-    title: "現金残高の返金",
+    title: "現金精算",
     lead: "現金残高を記録したICカードが必要です。",
     steps: [
        {

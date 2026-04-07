@@ -254,7 +254,7 @@ quitIntroBody: [
 ],
 
 quitPachinko: {
-  title: "파칭코 종료 방법",
+  title: "파칭코",
   lead: "시스템에 따라 다릅니다",
   steps: [
     {
@@ -311,7 +311,7 @@ quitPachinko: {
 },
 
 quitPachislot: {
-  title: "파치슬롯 종료 방법",
+  title: "파치슬롯",
   lead: "시스템에 따라 다릅니다",
   steps: [
     {

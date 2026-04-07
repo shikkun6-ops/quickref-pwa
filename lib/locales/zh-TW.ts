@@ -253,7 +253,7 @@ quitIntroBody: [
 ],
 
 quitPachinko: {
-  title: "柏青哥的離開方式",
+  title: "柏青哥",
   lead: "依系統類型而不同",
   steps: [
     {
@@ -310,7 +310,7 @@ quitPachinko: {
 },
 
 quitPachislot: {
-  title: "柏青嫂的離開方式",
+  title: "柏青嫂",
   lead: "依系統類型而不同",
   steps: [
     {
