@@ -75,9 +75,12 @@ export default function LanguageSelectPage() {
       </section>
 
       <footer className="langFooter">
-        <p className="langFooterTitle">Quick Reference PWA</p>
+        <p className="langFooterTitle">Spirit of Japan / Adult Playground Research Institute</p>
         <p className="langFooterCopy">
-          © 2026 Quick Reference PWA. All rights reserved.
+          © 2026 SPJ / APRI. All rights reserved.
+        </p>
+        <p className="langFooterCopy">
+          Contact: info@spirit-of.jp
         </p>
       </footer>
     </main>
