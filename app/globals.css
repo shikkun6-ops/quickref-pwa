@@ -748,12 +748,12 @@ imageWrap img {
 
 .infoTable thead th:nth-child(2),
 .infoTable tbody td:nth-child(2) {
-  width: 22%;
+  width: 24%;
 }
 
 .infoTable thead th:nth-child(3),
 .infoTable tbody td:nth-child(3) {
-  width: 54%;
+  width: 45%;
 }
 
 .playTabs {
@@ -907,17 +907,17 @@ imageWrap img {
 
   .infoTable thead th:nth-child(1),
   .infoTable tbody td:nth-child(1) {
-    width: 27%;
+    width: 24%;
   }
 
   .infoTable thead th:nth-child(2),
   .infoTable tbody td:nth-child(2) {
-    width: 23%;
+    width: 24%;
   }
 
   .infoTable thead th:nth-child(3),
   .infoTable tbody td:nth-child(3) {
-    width: 50%;
+    width: 45%;
   }
 }
 
@@ -1051,16 +1051,16 @@ imageWrap img {
 
   .infoTable thead th:nth-child(1),
   .infoTable tbody td:nth-child(1) {
-    width: 28%;
+    width: 24%;
   }
 
   .infoTable thead th:nth-child(2),
   .infoTable tbody td:nth-child(2) {
-    width: 22%;
+    width: 24%;
   }
 
   .infoTable thead th:nth-child(3),
   .infoTable tbody td:nth-child(3) {
-    width: 50%;
+    width: 45%;
   }
 }
